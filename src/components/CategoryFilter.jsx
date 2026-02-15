@@ -7,7 +7,7 @@ const avaiableCategories = [
 ];
 
 const CategoryFilter = () => {
-  const selectedCategory = "Phone";
+  const selectedCategory = "All";
   return (
     <>
       <div className="flex flex-wrap gap-3 border-b border-gray-800 pb-6">
