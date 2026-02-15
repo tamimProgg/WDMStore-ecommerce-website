@@ -1,3 +1,4 @@
+import CategoryFilter from "../components/CategoryFilter"
 import SearchFilter from "../components/SearchFilter"
 
 const ProductList = () => {
@@ -5,6 +6,7 @@ const ProductList = () => {
     <>
     <div className="container mx-auto px-4 md:px-8 pt-8">
         <SearchFilter />
+        <CategoryFilter />
     </div>
      
     </>
